@@ -5,7 +5,8 @@ import './rn-addons';
 
 // import stories
 configure(() => {
-  require('../src/components/Button.stories');
+  require('../src/components/Header/Header.stories');
+  require('../src/components/Menu/Menu.stories');
 }, module);
 
 // Refer to https://github.com/storybookjs/storybook/tree/master/app/react-native#start-command-parameters
